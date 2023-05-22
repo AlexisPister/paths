@@ -1,6 +1,6 @@
 {
   "name": "paths-js",
-  "version": "0.0.10-development",
+  "version": "0.0.11-development",
   "description": "A library to handle and transform paths",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -12,7 +12,6 @@
     "clean": "rm -rf ./lib/",
     "cm": "cz",
     "lint": "eslint ./src/ --fix",
-    "prepare": "husky install",
     "semantic-release": "semantic-release",
     "typecheck": "tsc --noEmit",
     "test": "mocha --require ts-node/register test/**/*.ts"
@@ -34,7 +33,6 @@
     "@typescript-eslint/parser": "^5.45.0",
     "chai": "^4.3.7",
     "eslint": "^8.28.0",
-    "husky": "^6.0.0",
     "mocha": "^10.2.0",
     "tap": "^16.3.4",
     "ts-node": "^10.2.1",
